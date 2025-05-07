@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ' https://vighnesh-b.github.io/SChat-Frontend',
   credentials: true
 }));
 
