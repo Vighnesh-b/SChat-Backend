@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 app.use(express.json());
 app.use(cors({
-  origin: ' https://vighnesh-b.github.io/SChat-Frontend',
+  origin: 'https://schat-frontend-six.vercel.app',
   credentials: true
 }));
 
